@@ -34,7 +34,7 @@
             <div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2121.211505646324!2d-71.71365075197511!3d-41.246910595502634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a11007181aa09%3A0x9944bb2580b7eca3!2sR%C3%ADo%20Manso!5e0!3m2!1ses!2sar!4v1792029126758!5m2!1ses!2sar"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
             <form>
@@ -44,13 +44,24 @@
                 <label for="email">Email Adress:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="message">Your Message:</label>
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general"> General
+                        Inquiry</label>
+                    <label><input type="radio" name="purpose" value="resquestion"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="websuggestion"> Website
+                        Suggestion</label>
+                </fieldset>
+
+                <label for=" message">Your Message:</label>
                 <textarea id="message" name="message" rows="3"></textarea>
 
-                <label><input type="checkbox" id="newsletter" name="newsletter"> Please subscribe me
+                <label><input type="checkbox" id="newsletter" name="newsletter"> Please
+                    subscribe me
                     to the monthly newsletter</label>
 
-                <button type="submit">Submit</button>
+                <button type="submit">Send my information</button>
             </form>
         </section>
         <section>
