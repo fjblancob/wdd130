@@ -40,7 +40,7 @@ article {
 }
 
 .socialmedia a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .hero {
@@ -62,11 +62,6 @@ h1 {
     opacity: 0.7;
     background-color: var(--accent2-color);
     color: var(--secondary-color);
-}
-
-.hero article {
-    position: absolute;
-    color: var(--accent1-color);
 }
 
 .hero article img {
